@@ -1,0 +1,36 @@
+@import url(common/reset.css);
+
+.section{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section .sec-con{
+  flex: 0 1 600px;
+  height: 400px;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+.section .sec-con .gallery{
+  width: 500%;
+  height: inherit;
+  /* border: 1px solid #00f; */
+  box-sizing: border-box;
+  position: absolute;
+}
+.section .sec-con .gallery ul{
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid #ff0; */
+  box-sizing: border-box;
+}
+.section .sec-con .gallery ul li{
+  flex: 1;
+  border: 1px solid #0f0;
+  box-sizing: border-box;
+}
